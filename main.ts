@@ -1,3 +1,5 @@
+// Bruh look at dis dude
+// 
 let mySprite = sprites.create(img`
     . . . . . . f f f f . . . . . . 
     . . . . f f f 2 2 f f f . . . . 
