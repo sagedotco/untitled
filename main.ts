@@ -70,4 +70,6 @@ let apple = sprites.create(img`
     . . . 2 2 e e 4 4 4 2 e e . . . 
     . . . . . 2 2 e e e e . . . . . 
     `, SpriteKind.Player)
+// ahaha
+// 
 mySprite.setPosition(10, 60)
