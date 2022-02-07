@@ -17,7 +17,7 @@ let mySprite = sprites.create(img`
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-let mySprite2 = sprites.create(img`
+let donut = sprites.create(img`
     ..............bbbbbbb...........
     ...........bb66663333baa........
     .........bb3367776333663aa......
@@ -51,7 +51,7 @@ let mySprite2 = sprites.create(img`
     ..........eeeeee................
     ................................
     `, SpriteKind.Player)
-mySprite2 = sprites.create(img`
+let apple = sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
@@ -69,3 +69,4 @@ mySprite2 = sprites.create(img`
     . . . 2 2 e e 4 4 4 2 e e . . . 
     . . . . . 2 2 e e e e . . . . . 
     `, SpriteKind.Player)
+mySprite.setPosition(0, 0)
