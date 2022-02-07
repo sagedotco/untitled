@@ -1,18 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="}DBn*Fp3/K[}xyy_4;$!">mySprite</variable><variable type="KIND_SpriteKind" id="9[Ui27`|^`~B)YNAexC.">Player</variable><variable type="KIND_SpriteKind" id="qICRP++OKuL@q-~d%MRE">Projectile</variable><variable type="KIND_SpriteKind" id="S|o5LTeWekewZB;aV8o?">Food</variable><variable type="KIND_SpriteKind" id="aNT}KB}8bO4.WTtgehB-">Enemy</variable></variables><block type="pxt-on-start" id="z{HN$3OwTuSp#NOQ^NrI" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="K^f3y_bJ[*6`2=mc@LR."><field name="VAR" id="}DBn*Fp3/K[}xyy_4;$!">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="~r/7#4amofBaj![aQ)_;"><value name="img"><shadow type="screen_image_picker" id="D|k%cE~x!MSg(qZaF9bH"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"D|k%cE~x!MSg(qZaF9bH"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="E3CW.9?Nvw4o{%Pn(GOI"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetvel" id="]|1yM61mkKMQ?2^B2/^z"><value name="sprite"><block type="variables_get" id="A[%J=:rB6Sjhv(Km}Qg5"><field name="VAR" id="}DBn*Fp3/K[}xyy_4;$!">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="?d[,`U=)9axh/C7U]o0L"><field name="speed">50</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="O?c:21A{:1hVQ).GV65m"><field name="speed">50</field></shadow></value></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="z{HN$3OwTuSp#NOQ^NrI" x="0" y="0"/></xml>
